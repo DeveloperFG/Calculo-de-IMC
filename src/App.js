@@ -24,7 +24,10 @@ import './app.css';
 
   }else if( imc > 34.9){
     setMensagem(<h2 style={{color:'red'}}> Cuidado: obesidade! seu IMC e: {imc.toFixed(2)} </h2>)
-  }
+
+  }else if( imc > 40){
+  setMensagem(<h2 style={{color:'red'}}> Cuidado: obesidade Grave!!! seu IMC e: {imc.toFixed(2)} </h2>)
+}
 
  }
 
